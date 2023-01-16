@@ -1,18 +1,169 @@
 @import url(svg.css);
 
-* {
-  margin: 0;
-  padding: 0;
+:root {
+  --primary-red: #ba0000;
+  --secondary-red: #be5e01;
+  --primary-blue: #000196;
+  --secondary-blue: #3c81af;
+  --alpha-green: #198011;
+  --A-yellow: #ffcd72;
+  --B-brown: #3a2500;
+  --beta-purple: #6b0041;
+}
+
+/* CSS RESET */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-h1 {
-  font-size: 4.5rem;
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
 }
 
-#main-flex {
-  width: 85%;
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+/* END OF CSS RESET */
+/* MAIN GRID SETTING */
+#viewport-grid {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-areas: 
+  "sidebar main main"
+  "sidebar main main"
+  "footer footer footer" 
+  ;
+  grid-template-rows: 5fr 5fr 1fr;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+#leftside-navbar {
+  grid-area: sidebar;
+
+}
+
+#main-content {
+  grid-area: main;
+  display: grid;
+  grid-template-areas: 
+  "text"
+  "map"
+  ;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 3fr;
+}
+
+#footer {
+  grid-area: footer;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: var(--primary-blue);
+  font-size: 1.5rem;
+}
+
+/* NAVBAR STYLING */
+#navlist {
+  text-align: center;
+  padding: 0;
+  margin: 1rem 0 0 0;
+  list-style: none;
+}
+
+.nav-link {
+  font-size: 1.5rem; 
+  color: var(--primary-red);
+  text-decoration: none;
+  transition: 0.6s color; 
+}
+
+.nav-link:hover {
+  color: var(--primary-blue);
+}
+
+/* MAIN styling */
+#main-text{
+  grid-area: text;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-heading {
+  color: var(--primary-red);
+  font-size: 3rem;
+}
+
+#map{
+  grid-area: map;
+  resize: both;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
