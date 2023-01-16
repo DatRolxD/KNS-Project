@@ -26,6 +26,17 @@
     <main id="main-content">
       <div id="main-text">
         <h1 id="main-heading">Koło Naukowe Slawistów</h1>
+        <div id="description">
+          <p>Witamy na stronie internetowej koła naukowego Slawistów.</p>
+          <p>Znajdziecie tutaj:
+          <ul id="features">
+            <li>informację o naszym kole naukowym</li>
+            <li>aktualności z krajów słowiańskich</li>
+            <li>czasopismo KNS</li>
+          </ul>
+          </p>
+
+        </div>
       </div>
       <div id="map">
         <?php include('svg-map.php'); ?>

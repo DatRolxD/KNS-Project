@@ -150,6 +150,7 @@ select {
 #main-text{
   grid-area: text;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -157,6 +158,18 @@ select {
 #main-heading {
   color: var(--primary-red);
   font-size: 3rem;
+}
+
+#description {
+  width: 70%; 
+}
+
+.smaller {
+  font-size: 0.8rem;
+}
+
+#features{
+  margin: 0;
 }
 
 #map{
