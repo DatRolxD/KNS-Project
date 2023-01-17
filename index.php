@@ -43,11 +43,14 @@
         <p id="map-description">Kliknij na kraj, żeby zobaczyć aktualności z danego kraju.</p>
       </div>
       <section id="posts">
+        <h2>Najnowsze aktualności</h2>
         <div class="post">
-          <p class="post-author">16.01.2023 by Admin</p>
-          <div class="post-thumbnail"></div>
+          <p class="post-author">16.01.2023 Admin</p>
+          <div class="post-thumbnail">
+            <img src="images/ljublana.jpg" alt="thumbnail" />
+          </div>
           <h3 class="post-heading">
-            Warszawa to śliczne miasto!
+            Lorem Ipsum
           </h3>
           <p class="post-message">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -55,7 +58,9 @@
             esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
             qui
             officia deserunt mollit anim id est laborum.</p>
-          <div class="post-button"></div>
+          <div class="post-button">
+            <button>Czytaj więcej</button>
+          </div>
         </div>
       </section>
     </main>

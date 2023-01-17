@@ -10,6 +10,7 @@
   --A-yellow: #ffcd72;
   --B-brown: #3a2500;
   --beta-purple: #6b0041;
+  --primary-bg: #fff6f2;
   --ff-primary: HKGrotesk;
 }
 
@@ -95,7 +96,7 @@ select {
 /* END OF CSS RESET */
 /* MAIN GRID SETTING */
 #viewport-grid {
-  background-color: #fff6f2;
+  background-color: var(--primary-bg);
   width: 100%;
   min-height: 100vh;
   display: grid;
@@ -104,12 +105,14 @@ select {
   "leftsidebar main"
   ;
   grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 4fr;
-  margin-bottom: 3.5rem;
+  grid-template-columns: 1fr 5fr;
+
 }
 
 #leftside-navbar {
   grid-area: leftsidebar;
+  padding: 1rem;
+  border: 2px solid var(--primary-blue);
 }
 
 #main-content {
@@ -120,6 +123,9 @@ select {
   "map"
   "posts"
   ;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3.5rem;
 }
 
 #footer {
@@ -136,6 +142,10 @@ select {
 }
 
 /* NAVBAR STYLING */
+#leftside-navbar {
+  
+}
+
 #navlist {
   text-align: center;
   padding: 0;
@@ -197,7 +207,59 @@ select {
 
 #posts {
   grid-area: posts;
-  
+  max-width: 75%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.post {
+  display: grid; 
+  grid-template-rows: 1rem 10rem 2.5rem auto auto;
+  border: 1px solid var(--primary-blue);
+  padding: 1rem;
+}
+
+.post > * {
+  display: flex;
+  align-items: center;
+}
+
+.post-author {
+  font-size: 0.75rem;
+  font-style: italic;
+}
+
+.post-thumbnail img {
+  max-height: 100%;
+}
+
+.post-heading{ 
+
+}
+
+.post-message {
+  padding-block-end: 1rem;
+}
+
+.post-button {
+
+}
+
+.post-button > button {
+  cursor: pointer;
+  padding: 0.5rem;
+  font-weight: 700;
+  border: 2px solid var(--primary-blue);
+  color: var(--primary-red);
+  background-color: transparent;
+  transition: 0.6s;
+}
+
+.post-button > button:hover {
+  background-color: var(--primary-red);
+  color: var(--primary-bg);
 }
 
 
