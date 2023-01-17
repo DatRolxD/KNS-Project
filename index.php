@@ -62,6 +62,42 @@
             <button>Czytaj więcej</button>
           </div>
         </div>
+        <div class="post">
+          <p class="post-author">16.01.2023 Admin</p>
+          <div class="post-thumbnail">
+            <img src="images/ljublana.jpg" alt="thumbnail" />
+          </div>
+          <h3 class="post-heading">
+            Lorem Ipsum
+          </h3>
+          <p class="post-message">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+            qui
+            officia deserunt mollit anim id est laborum.</p>
+          <div class="post-button">
+            <button>Czytaj więcej</button>
+          </div>
+        </div>
+        <div class="post">
+          <p class="post-author">16.01.2023 Admin</p>
+          <div class="post-thumbnail">
+            <img src="images/ljublana.jpg" alt="thumbnail" />
+          </div>
+          <h3 class="post-heading">
+            Lorem Ipsum
+          </h3>
+          <p class="post-message">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+            qui
+            officia deserunt mollit anim id est laborum.</p>
+          <div class="post-button">
+            <button>Czytaj więcej</button>
+          </div>
+        </div>
       </section>
     </main>
   </div>

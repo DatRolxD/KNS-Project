@@ -1,0 +1,143 @@
+svg {
+  float: right;
+  position: relative;
+  width: 100%;
+  height: 150vh;
+  bottom: 35vh;
+}
+
+#map-container {
+  float: right;
+  width: 75%;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.st0 {
+  fill: #C0C0C0;
+  stroke: #FFFFFF;
+  stroke-width: 0.4008;
+}
+
+.st1 {
+  fill: #C0C0C0;
+  stroke: #FFFFFF;
+  stroke-width: 0.1502;
+  stroke-dasharray: 0.1502, 0.1502;
+}
+
+.st2 {
+  fill: #C0C0C0;
+  stroke: #FFFFFF;
+  stroke-width: 7.509491e-02;
+  stroke-dasharray: 7.509492e-02, 7.509492e-02;
+}
+
+.st3 {
+  fill: #C0C0C0;
+  stroke: #FFFFFF;
+  stroke-width: 0.4008;
+  stroke-dasharray: 0.4008, 0.4008;
+}
+
+.st4 {
+  fill: #C0C0C0;
+  stroke: #FFFFFF;
+  stroke-width: 0.1002;
+}
+
+.st5 {
+  fill: #C0C0C0;
+  stroke: #FFFFFF;
+  stroke-width: 0.3004;
+}
+
+.st6 {
+  fill: #C0C0C0;
+  stroke: #FFFFFF;
+  stroke-width: 0.3004;
+  stroke-dasharray: 0.3004, 0.3004;
+}
+
+.st7 {
+  fill: #C0C0C0;
+  stroke: #FFFFFF;
+  stroke-width: 0.3993;
+  stroke-miterlimit: 10;
+}
+
+.st8 {
+  fill: #C0C0C0;
+  stroke: #FFFFFF;
+  stroke-width: 7.509491e-02;
+}
+
+.st9 {
+  clip-path: url(#SVGID_2_);
+  fill: #C0C0C0;
+  stroke: #FFFFFF;
+  stroke-width: 0.3993;
+  stroke-miterlimit: 10;
+}
+
+.st10 {
+  fill: #C0C0C0;
+  stroke: #FFFFFF;
+  stroke-width: 0.4008;
+  stroke-dasharray: 0.4008, 0.8016;
+}
+
+.st11 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #C0C0C0;
+  stroke: #FFFFFF;
+  stroke-width: 0.3004;
+}
+
+.st12 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #C0C0C0;
+  stroke: #FFFFFF;
+  stroke-width: 0.1502;
+}
+
+.st13 {
+  fill: #C0C0C0;
+  stroke: #FFFFFF;
+  stroke-width: 0.1502;
+  stroke-dasharray: 0.3004, 0.1502, 7.509492e-02, 0.1502;
+}
+
+.st14 {
+  opacity: 0.5;
+  fill: #FFFFFF;
+  enable-background: new;
+}
+
+.st15 {
+  fill: none;
+}
+
+.st0,
+.st1,
+.st2,
+.st3,
+.st4,
+.st5,
+.st6,
+.st7,
+.st8,
+.st10 {
+  transition: 0.6s fill;
+}
+
+.image-clip {
+  opacity: 0.5;
+  transition: 0.6s opacity;
+}
+
+.image-clip:hover {
+  opacity: 1;
+}

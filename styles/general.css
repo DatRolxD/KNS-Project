@@ -1,6 +1,5 @@
 @import url(svg.css);
 @import url(font-style.css);
-
 :root {
   --primary-red: #ba0000;
   --secondary-red: #be5e01;
@@ -143,7 +142,9 @@ select {
 
 /* NAVBAR STYLING */
 #leftside-navbar {
-  
+  position: fixed; 
+  width: 20%;
+  height: 100vh;
 }
 
 #navlist {
@@ -212,6 +213,7 @@ select {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  gap: 1rem;
 }
 
 .post {
@@ -231,7 +233,7 @@ select {
   font-style: italic;
 }
 
-.post-thumbnail img {
+.post-thumbnail img, #logo {
   max-height: 100%;
 }
 
@@ -262,4 +264,39 @@ select {
   color: var(--primary-bg);
 }
 
+@media screen and (max-width: 640px){
+  html {
+    font-size: 0.6rem;
+  }
+  
+  #viewport-grid {
+    width: 100%;
+    min-height: 100vh;
+    grid-template-areas: 
+    "main"
+    "main"
+    ;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+  }
+  
+  #main-content {
+    padding-block: 10rem;
+  }
+  
+  #leftside-navbar {
+    background-color: white ;
+    display: flex;  
+    position: fixed; 
+    width: 100%;
+    height: 10%;
+  }
+  #navlist {
+  margin: 0 ;
+  
+  }
+  
 
+
+
+}
