@@ -40,14 +40,29 @@
       </div>
       <div id="map">
         <?php include('svg-map.php'); ?>
+        <p id="map-description">Kliknij na kraj, żeby zobaczyć aktualności z danego kraju.</p>
       </div>
-
+      <section id="posts">
+        <div class="post">
+          <p class="post-author">16.01.2023 by Admin</p>
+          <div class="post-thumbnail"></div>
+          <h3 class="post-heading">
+            Warszawa to śliczne miasto!
+          </h3>
+          <p class="post-message">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+            qui
+            officia deserunt mollit anim id est laborum.</p>
+          <div class="post-button"></div>
+        </div>
+      </section>
     </main>
-
-    <footer id="footer">
-      <p>KNS</p>
-    </footer>
   </div>
+  <footer id="footer">
+    <p>KNS</p>
+  </footer>
 </body>
 
 </html>
