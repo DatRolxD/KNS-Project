@@ -1,4 +1,5 @@
 @import url(svg.css);
+@import url(font-style.css);
 
 :root {
   --primary-red: #ba0000;
@@ -9,6 +10,11 @@
   --A-yellow: #ffcd72;
   --B-brown: #3a2500;
   --beta-purple: #6b0041;
+  --ff-primary: HKGrotesk;
+}
+
+html {
+  font-family: HKGrotesk, sans-serif;
 }
 
 /* CSS RESET */
