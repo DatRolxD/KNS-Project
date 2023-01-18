@@ -15,74 +15,74 @@ svg {
 
 .st0 {
   fill: #C0C0C0;
-  stroke: #FFFFFF;
+  stroke: black;
   stroke-width: 0.4008;
 }
 
 .st1 {
   fill: #C0C0C0;
-  stroke: #FFFFFF;
+  stroke: black;
   stroke-width: 0.1502;
   stroke-dasharray: 0.1502, 0.1502;
 }
 
 .st2 {
   fill: #C0C0C0;
-  stroke: #FFFFFF;
+  stroke: black;
   stroke-width: 7.509491e-02;
   stroke-dasharray: 7.509492e-02, 7.509492e-02;
 }
 
 .st3 {
   fill: #C0C0C0;
-  stroke: #FFFFFF;
+  stroke: black;
   stroke-width: 0.4008;
   stroke-dasharray: 0.4008, 0.4008;
 }
 
 .st4 {
   fill: #C0C0C0;
-  stroke: #FFFFFF;
+  stroke: black;
   stroke-width: 0.1002;
 }
 
 .st5 {
   fill: #C0C0C0;
-  stroke: #FFFFFF;
+  stroke: black;
   stroke-width: 0.3004;
 }
 
 .st6 {
   fill: #C0C0C0;
-  stroke: #FFFFFF;
+  stroke: black;
   stroke-width: 0.3004;
   stroke-dasharray: 0.3004, 0.3004;
 }
 
 .st7 {
   fill: #C0C0C0;
-  stroke: #FFFFFF;
+  stroke: black;
   stroke-width: 0.3993;
   stroke-miterlimit: 10;
 }
 
 .st8 {
   fill: #C0C0C0;
-  stroke: #FFFFFF;
+  stroke: black;
   stroke-width: 7.509491e-02;
 }
 
 .st9 {
   clip-path: url(#SVGID_2_);
   fill: #C0C0C0;
-  stroke: #FFFFFF;
+  stroke: black;
   stroke-width: 0.3993;
   stroke-miterlimit: 10;
 }
 
 .st10 {
   fill: #C0C0C0;
-  stroke: #FFFFFF;
+  stroke: black;
   stroke-width: 0.4008;
   stroke-dasharray: 0.4008, 0.8016;
 }
@@ -91,7 +91,7 @@ svg {
   fill-rule: evenodd;
   clip-rule: evenodd;
   fill: #C0C0C0;
-  stroke: #FFFFFF;
+  stroke: black;
   stroke-width: 0.3004;
 }
 
@@ -99,13 +99,13 @@ svg {
   fill-rule: evenodd;
   clip-rule: evenodd;
   fill: #C0C0C0;
-  stroke: #FFFFFF;
+  stroke: black;
   stroke-width: 0.1502;
 }
 
 .st13 {
   fill: #C0C0C0;
-  stroke: #FFFFFF;
+  stroke: black;
   stroke-width: 0.1502;
   stroke-dasharray: 0.3004, 0.1502, 7.509492e-02, 0.1502;
 }
@@ -117,7 +117,8 @@ svg {
 }
 
 .st15 {
-  fill: none;
+  opacity: 0.5;
+  fill: #C0C0C0;
 }
 
 .st0,
